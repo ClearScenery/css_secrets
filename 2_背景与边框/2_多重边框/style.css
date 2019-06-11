@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #2c3e50;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.demo1 {
+    background: yellowgreen;
+    box-shadow: 0 0 0 10px #655, 0 0 0 15px deeppink, 0 0 0 25px blue, 0 2px 5px 35px yellow;
+}
+
+.demo2 {
+    background: yellowgreen;
+    border: 10px solid #655;
+    outline: 5px solid deeppink;
+}
+
+.demo3 {
+    background: yellowgreen;
+    border: 10px solid #fff;
+    border-radius: 20px;
+    outline: 5px solid deeppink;
+}
